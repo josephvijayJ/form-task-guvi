@@ -1,0 +1,89 @@
+/* .body{
+    margin: 0;
+    padding:0;
+    /* position: relative; */
+/* } */ 
+#main-heading{
+    background-color: red;
+    padding:5px;
+    text-align: center;
+}
+.center{
+    
+    width:50%;
+    height:60vh;
+    border:5px solid black;
+    padding:10px;
+    top:0;
+    left: 0;
+    right: 0;
+    bottom:0;
+    position: absolute;
+    margin: auto;
+    background: gray;
+   
+}
+
+form input{
+    background:white;
+
+    display: block;
+    
+    
+}
+form .Fname-input{
+    
+}
+form .Lname-input{
+    float: right;
+    margin-top: -22px;
+    margin-right: 290px;
+    
+}
+.Lname-label{
+    float: right;
+    margin-right: 384px;
+    margin-top: -16px;
+}
+.address-input input {
+    font-family: 'Times New Roman', Times, serif;
+}
+.Csz
+{
+    display:flex;
+    gap:30px;
+}
+.label-Csz{
+    display: flex;
+    justify-content: flex-start;
+    gap: 170px;
+    align-content: flex-start;;
+}
+/* .label-Csz .city{
+    margin-right:650px;
+}
+.label-Csz .state{
+    margin-right:30px;
+} */
+.subscribe{
+    display: flex;
+    align-content: flex-start;
+    gap: 8px;
+}
+.checkbox-1 li{
+    display: flex;
+    gap:20px;
+}
+.btn{
+    margin-top: 15px;
+    font:bold;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+.btn:hover{
+    background: blanchedalmond;
+    color: cadetblue;
+}
+.final{
+    display:flex;
+}
